@@ -1,11 +1,11 @@
 # storage_app
-
+a
 This proyect is based on a [dbstech video](https://www.youtube.com/watch?v=TIZ3Vx-5-TU)
 with some own modifications such as the structure and other things,
 this due to personal preferences.
 
 ## Getting Started
-a
+
 At this point the app is at initial base with a [route]('./lib/router/app_routes.dart') and [theme](./lib/themes/app_theme.dart) manager in
 order to have a better management of its structure.
 
@@ -20,4 +20,16 @@ add in pupspec.yaml
 ```yaml
 dependencies:
   google_fonts: ^4.0.5
+  ionicons: ^0.2.2
+
 ```
+
+
+<!-- TODO: borrar al terminar -->
+# Tutorial
+
+comenzamos preparando nuestra aplicacion creando nuestro router para tener un
+manejo mas limpio de las diferentes rutas que vamos a maneja, tambien la creacion
+de un fichero especifico para el tema de nuesta aplicacion.
+
+agregamos las dependencias necesarias para correr nuestro proyecto
