@@ -1,16 +1,23 @@
 # storage_app
 
-A new Flutter project.
+This proyect is based on a [dbstech video](https://www.youtube.com/watch?v=TIZ3Vx-5-TU)
+with some own modifications such as the structure and other things,
+this due to personal preferences.
 
 ## Getting Started
+a
+At this point the app is at initial base with a [route]('./lib/router/app_routes.dart') and [theme](./lib/themes/app_theme.dart) manager in
+order to have a better management of its structure.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### [Router]('./lib/router/app_routes.dart')
+In this file a structure is defined where we can add the different routes and the different screens(widgets) to which they point.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Dependencies
+
+add in pupspec.yaml
+```yaml
+dependencies:
+  google_fonts: ^4.0.5
+```
