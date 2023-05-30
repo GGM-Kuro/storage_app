@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:storage_app/router/app_routes.dart';
+import 'package:storage_app/providers/providers.dart';
+import 'package:storage_app/screens/screens.dart';
 import 'package:storage_app/themes/app_theme.dart';
+import 'package:provider/provider.dart';
 
-void main() => runApp(const MyApp());
+void main(){
+	runApp(MultiProvider(
+				providers: [
+				ChangeNotifierProvider(create: ( context ) => MainScreenNotifier())
+				],
+		child: const MyApp()
+	));
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -14,9 +23,7 @@ class MyApp extends StatelessWidget {
 		debugShowCheckedModeBanner: false,
       title: 'Storage_app',
       theme: Apptheme.lightTheme,
-		initialRoute: AppRoutes.initialRoute,
-		routes: AppRoutes.getAppRoutes(),
-		onGenerateRoute:  AppRoutes.onGenerateRoute,
+		home: MainScreen(),
 		);
   }
 }

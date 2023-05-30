@@ -21,6 +21,7 @@ add in pupspec.yaml
 dependencies:
   google_fonts: ^4.0.5
   ionicons: ^0.2.2
+  community_material_icon: ^5.9.55
 
 ```
 
