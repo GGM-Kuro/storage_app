@@ -1,5 +1,5 @@
 # storage_app
-a
+
 This proyect is based on a [dbstech video](https://www.youtube.com/watch?v=TIZ3Vx-5-TU)
 with some own modifications such as the structure and other things,
 this due to personal preferences.
@@ -14,7 +14,7 @@ order to have a better management of its structure.
 In this file a structure is defined where we can add the different routes and the different screens(widgets) to which they point.
 
 
-### Dependencies
+## Dependencies
 
 add in pupspec.yaml
 ```yaml
@@ -22,15 +22,6 @@ dependencies:
   google_fonts: ^4.0.5
   ionicons: ^0.2.2
   community_material_icon: ^5.9.55
+  provider: ^6.0.5
 
 ```
-
-
-<!-- TODO: borrar al terminar -->
-# Tutorial
-
-comenzamos preparando nuestra aplicacion creando nuestro router para tener un
-manejo mas limpio de las diferentes rutas que vamos a maneja, tambien la creacion
-de un fichero especifico para el tema de nuesta aplicacion.
-
-agregamos las dependencias necesarias para correr nuestro proyecto
