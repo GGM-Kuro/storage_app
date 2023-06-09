@@ -36,7 +36,44 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin{
                   ),
 
                       ),
-// WARNING: 36:42
+                  TabBar(
+                  indicatorSize: TabBarIndicatorSize.label,
+                  indicatorColor: Colors.transparent,
+                  controller: _tabController,
+                  isScrollable: true,
+                  labelColor: Apptheme.secondary,
+                  labelStyle: Apptheme.appstyle(24, Apptheme.primary, FontWeight.bold),
+                  unselectedLabelColor: Colors.grey.withOpacity(0.3),
+                  tabs:const[
+                          Tab(text: 'Men shoes',),
+                          Tab(text: 'Women shoes',),
+                          Tab(text: 'Kids shoes',),
+                          ]),
+// WARNING: 43:04
+                  Padding(
+                    padding:  EdgeInsets.only(top: MediaQuery.of(context).size.height*0.265),
+                    child: TabBarView(
+                        controller: _tabController,
+                        children: [
+                        Column(
+                            children: [
+                            Container(
+                            height: MediaQuery.of(context).size.height*0.45,
+                            color: Colors.amber,
+                                )
+                            ],
+                            ),
+                        Column(
+                            children: [
+                            Container(
+                            height: MediaQuery.of(context).size.height*0.45,
+                            color: Colors.amber,
+                                )
+                            ],
+                            )
+                        ]
+                    ),
+                  )
                   ],
                   ),
                   )
