@@ -12,9 +12,9 @@ import 'package:community_material_icon/community_material_icon.dart';
 import 'package:provider/provider.dart';
 
 class MainScreen extends StatelessWidget {
-   MainScreen({super.key});
+   const MainScreen({super.key});
 
-   List<Widget>  screensList = const [
+   final List<Widget>  screensList = const [
 
     HomeScreen(),
     SearchScreen(),
@@ -24,6 +24,7 @@ class MainScreen extends StatelessWidget {
 
    ];
 
+    // WARNING: 1:19:37
   @override
   Widget build(BuildContext context) {
       return  Consumer<MainScreenNotifier>(

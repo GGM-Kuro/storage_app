@@ -1,0 +1,21 @@
+[
+    {
+        "id": "0",
+        "name": "Teclado Mecanico",
+        "category": "Perifericos",
+        "imageUrl": [
+            "imageUrl",
+            "imageUrl2"
+        ],
+        "oldPrice": "1899.00",
+        "sizes": [
+            {
+                "size": "TKL",
+                "isSelected": false
+            }
+        ],
+        "price": "79.0",
+        "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.",
+        "title": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+    }
+]
